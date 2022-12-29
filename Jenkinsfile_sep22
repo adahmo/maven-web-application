@@ -9,7 +9,7 @@ node{
   }
   /*  
   stage('3codeQuality'){
-    sh "${mavenHome}/bin/mvn  sonar:sonar"
+    sh "${mavenHome}/bin/mvn sonar:sonar"
   }
   stage('4uploadArtifacts'){
     //sh "${mavenHome}/bin/mvn deploy"
@@ -19,7 +19,7 @@ node{
     // vi setting.xml and add AUTHENTICATION details  
   } 
   stage('5deploy2UAT'){
-    sh "echo 'deploy to UAT'  "
+    sh "echo 'deploy to UAT' "
     deploy adapters: [tomcat8(credentialsId: 'tomcat-credentials', path: '', url: 'http://35.170.249.131:8080/')], contextPath: null, war: 'target/*war'
   }
   stage('6approvalGate'){
