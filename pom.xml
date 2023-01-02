@@ -96,14 +96,14 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.236.241.255:8081/repository/jetta.app-releases/</url>
+	      <url>http://44.192.78.147:8081/repository/jetta.app-releases/</url>
 		   
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository</name>
-	      <url>http://3.236.241.255:8081/repository/jetta.app-snapshot/</url>
+	      <url>http://44.192.78.147:8081/repository/jetta.app-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
